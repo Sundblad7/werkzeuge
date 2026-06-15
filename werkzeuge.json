@@ -1,0 +1,639 @@
+{
+  "meta": {
+    "book": "Höher geht immer",
+    "subtitle": "Was Leistungssport über moderne Führung lehrt",
+    "author": "Timm Funke",
+    "language": "de",
+    "toolCount": 34,
+    "source": "Direkt aus der HTML-Vorlage reference/Werkzeug-App-Vorlage.html extrahiert (1:1 deckungsgleich).",
+    "types": {
+      "blatt": "Ausfuellbares Arbeitsblatt (fields; optional choice; optional ampel pro Feld; optional lead-Frage)",
+      "impuls": "Reflexionskarte mit einem prompt (Denkanstoss)"
+    },
+    "mechanics": {
+      "ampel": "field.ampel=true -> Selbsteinschaetzung als Ampel (rot/gelb/gruen), nichts wird verrechnet",
+      "choice": "Einfachauswahl mit options",
+      "lead": "vorangestellte Leitfrage (nur Sechs-Fragen-Modell)"
+    }
+  },
+  "counts": {
+    "blatt": 18,
+    "impuls": 16
+  },
+  "phases": [
+    {
+      "id": "k1",
+      "chapter": 1,
+      "label": "Kapitel 1 · Der Anlauf"
+    },
+    {
+      "id": "k2",
+      "chapter": 2,
+      "label": "Kapitel 2 · Der Stab"
+    },
+    {
+      "id": "k3",
+      "chapter": 3,
+      "label": "Kapitel 3 · Der Absprung"
+    },
+    {
+      "id": "k4",
+      "chapter": 4,
+      "label": "Kapitel 4 · Das Aufrollen"
+    },
+    {
+      "id": "k5",
+      "chapter": 5,
+      "label": "Kapitel 5 · Die Lattenüberquerung"
+    },
+    {
+      "id": "k6",
+      "chapter": 6,
+      "label": "Kapitel 6 · Die Landung"
+    },
+    {
+      "id": "k7",
+      "chapter": 7,
+      "label": "Kapitel 7 · Das Coaching"
+    },
+    {
+      "id": "k8",
+      "chapter": 8,
+      "label": "Kapitel 8 · Der Wettkampf"
+    },
+    {
+      "id": "k9",
+      "chapter": 9,
+      "label": "Kapitel 9 · Der nächste Anlauf"
+    },
+    {
+      "id": "k10",
+      "chapter": 10,
+      "label": "Kapitel 10 · Das Absprung-Modell"
+    }
+  ],
+  "tools": [
+    {
+      "id": "sechzig",
+      "chapter": 1,
+      "phase": "Kapitel 1 · Der Anlauf",
+      "type": "blatt",
+      "name": "60-Sekunden-Prinzip",
+      "intro": "Jede Entscheidung hat ein unsichtbares Verfallsdatum. Gib offenen Entscheidungen eine explizite Deadline.",
+      "fields": [
+        {
+          "label": "Welche Entscheidung ist offen?"
+        },
+        {
+          "label": "Bis wann fällt sie? (Datum/Uhrzeit)",
+          "hint": "Mach das Zeitfenster sichtbar."
+        },
+        {
+          "label": "Was ist die Entscheidung?",
+          "hint": "Nach Ablauf des Fensters: festlegen, nicht vertagen."
+        }
+      ]
+    },
+    {
+      "id": "fallberatung",
+      "chapter": 1,
+      "phase": "Kapitel 1 · Der Anlauf",
+      "type": "blatt",
+      "name": "Kollegiale Fallberatung",
+      "intro": "Eine Führungskraft bringt einen realen Fall ein, die Gruppe hört zu und stellt nur Fragen, keine Ratschläge. Dreißig Minuten, streng moderiert.",
+      "fields": [
+        {
+          "label": "Mein Fall in zwei Sätzen"
+        },
+        {
+          "label": "Welche Fragen der Gruppe haben getroffen?"
+        },
+        {
+          "label": "Meine eigene Erkenntnis",
+          "hint": "Die Antwort findet der Fallgeber selbst."
+        }
+      ]
+    },
+    {
+      "id": "dreiwochen",
+      "chapter": 1,
+      "phase": "Kapitel 1 · Der Anlauf",
+      "type": "blatt",
+      "name": "Drei-Wochen-Regel im Recruiting",
+      "intro": "Jede Bewerbung wird innerhalb von drei Wochen zu einem Ergebnis gebracht, egal ob Zusage oder Absage.",
+      "choice": {
+        "label": "Stand",
+        "options": [
+          "Offen",
+          "Zusage",
+          "Absage"
+        ]
+      },
+      "fields": [
+        {
+          "label": "Kandidat / Position"
+        },
+        {
+          "label": "Spätestes Entscheidungsdatum (max. 3 Wochen ab Eingang)"
+        }
+      ]
+    },
+    {
+      "id": "systemflex",
+      "chapter": 2,
+      "phase": "Kapitel 2 · Der Stab",
+      "type": "impuls",
+      "name": "System-Flex (90/10)",
+      "intro": "Neunzig Prozent der Fälle systematisieren, zehn Prozent bewusst offen lassen für menschliche Entscheidungen.",
+      "prompt": "Nimm einen deiner Prozesse: Wo liegen die 90 % klare Regel – und wo die 10 % bewusster Freiraum? Ist das Verhältnis noch richtig?"
+    },
+    {
+      "id": "tempelkatze",
+      "chapter": 2,
+      "phase": "Kapitel 2 · Der Stab",
+      "type": "impuls",
+      "name": "Tempelkatzen-Check",
+      "intro": "Regelmäßig hinterfragen, welche Systeme und Prozesse noch ihren ursprünglichen Zweck erfüllen.",
+      "prompt": "Welche Routine bei euch kann niemand mehr begründen? Löst sie noch ein Problem – oder ist sie nur die Gewohnheit von gestern?"
+    },
+    {
+      "id": "judgement",
+      "chapter": 2,
+      "phase": "Kapitel 2 · Der Stab",
+      "type": "impuls",
+      "name": "Judgement Windows",
+      "intro": "Klare Entscheidungsräume definieren, in denen Führungskräfte selbst entscheiden, unterstützt durch HR, aber nicht abhängig davon.",
+      "prompt": "Welche Entscheidung gehört bewusst in deinen Ermessensspielraum – und sollte nicht an ein Regelwerk delegiert werden?"
+    },
+    {
+      "id": "beziehungsokr",
+      "chapter": 2,
+      "phase": "Kapitel 2 · Der Stab",
+      "type": "blatt",
+      "name": "Beziehungs-OKRs",
+      "intro": "Quantitative Ziele um verhaltensbezogene Ziele ergänzen, zum Beispiel zwei echte Entwicklungsgespräche pro Monat.",
+      "fields": [
+        {
+          "label": "Beziehungsziel (Objective)",
+          "hint": "Wie willst du in dein Team investieren?"
+        },
+        {
+          "label": "Messbares Ergebnis 1 (Key Result)"
+        },
+        {
+          "label": "Messbares Ergebnis 2 (Key Result)"
+        }
+      ]
+    },
+    {
+      "id": "zweituren",
+      "chapter": 3,
+      "phase": "Kapitel 3 · Der Absprung",
+      "type": "blatt",
+      "name": "Zwei-Türen-Triage",
+      "intro": "Reversible Entscheidungen beschleunigen, irreversible schützen. Erst die Art der Entscheidung erkennen, dann das Tempo wählen.",
+      "choice": {
+        "label": "Welche Tür?",
+        "options": [
+          "Zwei Türen (reversibel) → zügig entscheiden",
+          "Eine Tür (kaum umkehrbar) → sorgfältig vorbereiten"
+        ]
+      },
+      "fields": [
+        {
+          "label": "Kann ich zurück?"
+        },
+        {
+          "label": "Was kostet die Korrektur – und was kostet das Warten?"
+        },
+        {
+          "label": "Wer ist betroffen?"
+        }
+      ]
+    },
+    {
+      "id": "decisionfriday",
+      "chapter": 3,
+      "phase": "Kapitel 3 · Der Absprung",
+      "type": "blatt",
+      "name": "Decision Friday",
+      "intro": "Jeden Freitag fünf Fragen zur wichtigsten Entscheidung der Woche beantworten und dokumentieren.",
+      "choice": {
+        "label": "Ergebnis",
+        "options": [
+          "Jetzt entschieden",
+          "Bewusst vertagt (mit Datum)"
+        ]
+      },
+      "fields": [
+        {
+          "label": "Die wichtigste offene Entscheidung dieser Woche"
+        },
+        {
+          "label": "Meine Entscheidung / der nächste Schritt"
+        }
+      ]
+    },
+    {
+      "id": "aar",
+      "chapter": 3,
+      "phase": "Kapitel 3 · Der Absprung",
+      "type": "blatt",
+      "name": "After-Action-Review",
+      "intro": "Nach jeder wichtigen Entscheidung drei Fragen – kein Schuldgespräch, sondern Lernen.",
+      "fields": [
+        {
+          "label": "Was sollte passieren?"
+        },
+        {
+          "label": "Was ist tatsächlich passiert?"
+        },
+        {
+          "label": "Was lernen wir daraus?"
+        }
+      ]
+    },
+    {
+      "id": "illusionen",
+      "chapter": 3,
+      "phase": "Kapitel 3 · Der Absprung",
+      "type": "impuls",
+      "name": "Drei Entscheidungsillusionen",
+      "intro": "Informationsillusion, Konsensillusion und Sicherheitsillusion erkennen und benennen.",
+      "prompt": "Welche Illusion bremst dich gerade? Brauchst du wirklich mehr Daten, müssen wirklich alle zustimmen, oder suchst du eine Sicherheit, die es nicht gibt?"
+    },
+    {
+      "id": "vertrauen",
+      "chapter": 4,
+      "phase": "Kapitel 4 · Das Aufrollen",
+      "type": "blatt",
+      "name": "Vertrauens-Scoring",
+      "intro": "Vertrauen ist kein einzelnes Gefühl, sondern ein Urteil aus drei Dimensionen. Fehlt eine, verändert das die Delegation.",
+      "fields": [
+        {
+          "label": "Kompetenz",
+          "hint": "Kann die Person die Aufgabe?",
+          "ampel": true
+        },
+        {
+          "label": "Absicht",
+          "hint": "Will sie das Richtige?",
+          "ampel": true
+        },
+        {
+          "label": "Beziehung",
+          "hint": "Trägt die gemeinsame Geschichte?",
+          "ampel": true
+        }
+      ]
+    },
+    {
+      "id": "delegation",
+      "chapter": 4,
+      "phase": "Kapitel 4 · Das Aufrollen",
+      "type": "blatt",
+      "name": "Vier Stufen der Delegation",
+      "intro": "Die richtige Stufe hängt von Person, Aufgabe und der Frage ab, was ein Fehler kosten würde.",
+      "choice": {
+        "label": "Passende Stufe für diese Aufgabe",
+        "options": [
+          "1 · Erklärung (tun und berichten)",
+          "2 · Gemeinsame Entscheidung",
+          "3 · Selbstständige Entscheidung",
+          "4 · Vollständige Verantwortung (nur Muster melden)"
+        ]
+      },
+      "fields": [
+        {
+          "label": "Aufgabe / Person"
+        },
+        {
+          "label": "Warum diese Stufe?"
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "chapter": 4,
+      "phase": "Kapitel 4 · Das Aufrollen",
+      "type": "blatt",
+      "name": "Zwei-Fragen-Reporting",
+      "intro": "Zwei Fragen genügen, um Mikromanagement und Überraschungen zugleich zu vermeiden.",
+      "choice": {
+        "label": "Status",
+        "options": [
+          "Beides Nein → im Plan",
+          "Mindestens ein Ja → hinsehen"
+        ]
+      },
+      "fields": [
+        {
+          "label": "Wird es teurer als gedacht?"
+        },
+        {
+          "label": "Dauert es länger als geplant?"
+        }
+      ]
+    },
+    {
+      "id": "circle",
+      "chapter": 4,
+      "phase": "Kapitel 4 · Das Aufrollen",
+      "type": "impuls",
+      "name": "Circle of Trust",
+      "intro": "Bewusst gestalten, wie groß der Kreis gegenseitiger Verantwortung im Team ist.",
+      "prompt": "Wer ist in deinem inneren Kreis – und wer wächst gerade hinein? Wo ist Vertrauen verdient, wo wird es noch aufgebaut?"
+    },
+    {
+      "id": "stresstest",
+      "chapter": 5,
+      "phase": "Kapitel 5 · Die Lattenüberquerung",
+      "type": "blatt",
+      "name": "Werte-Stresstest",
+      "intro": "Einmal im Quartal eine reale Entscheidung an den eigenen Werten prüfen. Werte zeigen sich unter Druck, nicht im Leitbild.",
+      "choice": {
+        "label": "Hält die Entscheidung dem Wertecheck stand?",
+        "options": [
+          "Ja, sauber",
+          "Spannung – aushalten und abwägen",
+          "Nein, sie bricht einen Wert"
+        ]
+      },
+      "fields": [
+        {
+          "label": "Die Entscheidung"
+        },
+        {
+          "label": "Welche Werte sind berührt?"
+        }
+      ]
+    },
+    {
+      "id": "star",
+      "chapter": 5,
+      "phase": "Kapitel 5 · Die Lattenüberquerung",
+      "type": "blatt",
+      "name": "STAR-Kulturprüfung",
+      "intro": "Für jeden Core Value ein strukturierter Fragenblock nach der STAR-Methode im Bewerbungsgespräch – nicht für Kompetenz, sondern für kulturelle Passung.",
+      "fields": [
+        {
+          "label": "Geprüfter Wert"
+        },
+        {
+          "label": "Situation",
+          "hint": "In welcher Lage befand sich der Kandidat?"
+        },
+        {
+          "label": "Task / Action",
+          "hint": "Was war die Aufgabe, was hat er getan?"
+        },
+        {
+          "label": "Result",
+          "hint": "Was kam dabei heraus – und was sagt das über die Passung?"
+        }
+      ]
+    },
+    {
+      "id": "hackman",
+      "chapter": 5,
+      "phase": "Kapitel 5 · Die Lattenüberquerung",
+      "type": "blatt",
+      "name": "Hackman-Frage",
+      "intro": "Nicht nur fragen, wie gut ein Kandidat ist, sondern wie er das Team verändert.",
+      "fields": [
+        {
+          "label": "Wie verändert dieser Mensch das Team?"
+        },
+        {
+          "label": "Macht er das Team besser – oder nur größer?"
+        }
+      ]
+    },
+    {
+      "id": "warnsignale",
+      "chapter": 6,
+      "phase": "Kapitel 6 · Die Landung",
+      "type": "blatt",
+      "name": "Drei persönliche Warnsignale",
+      "intro": "Die eigenen Überlastungssignale kennen und darauf reagieren, bevor die Landung schiefgeht. Individuell, nicht universell.",
+      "fields": [
+        {
+          "label": "Mein Warnsignal 1"
+        },
+        {
+          "label": "Mein Warnsignal 2"
+        },
+        {
+          "label": "Mein Warnsignal 3"
+        },
+        {
+          "label": "Was tue ich, sobald ich eines bemerke?"
+        }
+      ]
+    },
+    {
+      "id": "regeneration",
+      "chapter": 6,
+      "phase": "Kapitel 6 · Die Landung",
+      "type": "impuls",
+      "name": "Mini-Regenerationsphasen",
+      "intro": "Nach jedem großen Projekt bewusst eine Phase mit weniger Meetings und mehr Reflexion einplanen.",
+      "prompt": "Wo baust du nach dem nächsten großen Projekt bewusst eine Erholung ein – nicht als Sabbatical, sondern als den Dienstagnachmittag ohne Meetings?"
+    },
+    {
+      "id": "matte",
+      "chapter": 6,
+      "phase": "Kapitel 6 · Die Landung",
+      "type": "impuls",
+      "name": "Matte-Prinzip",
+      "intro": "Das Sicherheitsnetz ist keine Schwäche, sondern das, was hohe Sprünge erst möglich macht. Ohne Matte versucht niemand fünf Meter.",
+      "prompt": "Welches Sicherheitsnetz fehlt deinem Team, damit es sich an etwas Größeres herantraut?"
+    },
+    {
+      "id": "coachinghaltung",
+      "chapter": 7,
+      "phase": "Kapitel 7 · Das Coaching",
+      "type": "impuls",
+      "name": "Coaching-Haltung als Führungspraxis",
+      "intro": "Entwicklung über Kontrolle stellen, Fragen vor Antworten setzen, den anderen für möglich halten.",
+      "prompt": "Wo könntest du heute eine Frage stellen, statt eine Antwort zu geben?"
+    },
+    {
+      "id": "zuhoeren",
+      "chapter": 7,
+      "phase": "Kapitel 7 · Das Coaching",
+      "type": "impuls",
+      "name": "Aktives Zuhören",
+      "intro": "Nicht mit der eigenen Antwort im Kopf, sondern mit echtem Interesse – und mit der Bereitschaft, die Wahrheit des anderen zu erkennen.",
+      "prompt": "Hörst du im nächsten Gespräch zu, um zu verstehen – oder nur, um zu antworten?"
+    },
+    {
+      "id": "fragen",
+      "chapter": 7,
+      "phase": "Kapitel 7 · Das Coaching",
+      "type": "impuls",
+      "name": "Entwickelnde Fragen",
+      "intro": "Statt eine Antwort zu geben, eine Frage stellen, die den anderen weiterdenken lässt.",
+      "prompt": "Welche eine Frage würde dein Gegenüber gerade wirklich weiterbringen?"
+    },
+    {
+      "id": "video",
+      "chapter": 7,
+      "phase": "Kapitel 7 · Das Coaching",
+      "type": "impuls",
+      "name": "Videoanalyse für Führung",
+      "intro": "Meetings aufzeichnen und gemeinsam mit einem Trainer oder vertrauten Kollegen analysieren – Lernen durch Spiegelung.",
+      "prompt": "Welches deiner eigenen Meetings würdest du dir mit fremdem Blick ansehen – und worauf würdest du achten?"
+    },
+    {
+      "id": "remote",
+      "chapter": 7,
+      "phase": "Kapitel 7 · Das Coaching",
+      "type": "impuls",
+      "name": "Remote-Coaching-Prinzip",
+      "intro": "Begleitung funktioniert auch auf Distanz, wenn Vertrauen und klare Kommunikation vorhanden sind.",
+      "prompt": "Was ersetzt bei euch Nähe, wenn ihr nicht im selben Raum seid – Takt, Klarheit, Verlässlichkeit?"
+    },
+    {
+      "id": "vorabend",
+      "chapter": 8,
+      "phase": "Kapitel 8 · Der Wettkampf",
+      "type": "blatt",
+      "name": "Vorabend-Ritual",
+      "intro": "Vor wichtigen Entscheidungen bewusst Zeit für Vorbereitung und mentale Einstimmung einplanen. Der Wettkampf beginnt am Abend davor.",
+      "fields": [
+        {
+          "label": "Der wichtige Moment morgen"
+        },
+        {
+          "label": "Meine Vorbereitung heute Abend",
+          "hint": "Was muss vorbereitet sein, damit du morgen frei bist?"
+        }
+      ]
+    },
+    {
+      "id": "psafety",
+      "chapter": 8,
+      "phase": "Kapitel 8 · Der Wettkampf",
+      "type": "impuls",
+      "name": "Psychologische Sicherheit",
+      "intro": "Teams brauchen einen Raum, in dem Fehler als Information behandelt werden, nicht als Urteil.",
+      "prompt": "Werden Fehler bei euch als Information oder als Urteil behandelt? Woran würde dein Team das festmachen?"
+    },
+    {
+      "id": "befoerderung",
+      "chapter": 8,
+      "phase": "Kapitel 8 · Der Wettkampf",
+      "type": "impuls",
+      "name": "Beförderungskonferenz",
+      "intro": "Vierteljährlich Entwicklungsschritte bewusst diskutieren und entscheiden.",
+      "prompt": "Wessen Entwicklung besprecht ihr im nächsten Quartal bewusst – bevor jemand fragt, ob er sich hier noch entwickeln kann?"
+    },
+    {
+      "id": "dreipersonen",
+      "chapter": 8,
+      "phase": "Kapitel 8 · Der Wettkampf",
+      "type": "impuls",
+      "name": "Drei-Personen-Gesprächszyklus",
+      "intro": "Mitarbeiter, Führungskraft und HR Business Partner sprechen regelmäßig gemeinsam über Entwicklung.",
+      "prompt": "Wann sprechen Mitarbeiter, Führungskraft und HR Business Partner das nächste Mal gemeinsam – statt nur paarweise?"
+    },
+    {
+      "id": "landkarte",
+      "chapter": 9,
+      "phase": "Kapitel 9 · Der nächste Anlauf",
+      "type": "blatt",
+      "name": "Aufgaben-Landkarte",
+      "intro": "Jeden Prozess in drei Kategorien zerlegen: rein menschlich, rein maschinell, hybrid. Das verschiebt die Frage von Technologie auf Organisation.",
+      "fields": [
+        {
+          "label": "Welcher Prozess?"
+        },
+        {
+          "label": "Rein menschlich",
+          "hint": "Was sollten nur Menschen tun?"
+        },
+        {
+          "label": "Hybrid (Mensch + KI)",
+          "hint": "Wo arbeiten beide zusammen?"
+        },
+        {
+          "label": "Rein maschinell",
+          "hint": "Was kann KI besser allein?"
+        }
+      ]
+    },
+    {
+      "id": "hitl",
+      "chapter": 9,
+      "phase": "Kapitel 9 · Der nächste Anlauf",
+      "type": "impuls",
+      "name": "Human-in-the-Loop",
+      "intro": "Kein KI-Output geht ungeprüft nach draußen. Klare Stop-Kriterien definieren.",
+      "prompt": "Welcher KI-Output braucht bei euch noch eine menschliche Freigabe – und ab wann darf die Maschine allein?"
+    },
+    {
+      "id": "kionboard",
+      "chapter": 9,
+      "phase": "Kapitel 9 · Der nächste Anlauf",
+      "type": "blatt",
+      "name": "KI-Onboarding",
+      "intro": "KI wie einen neuen Mitarbeiter behandeln: mit Aufgaben, Einarbeitung und Feedback-Schleifen.",
+      "fields": [
+        {
+          "label": "Welche Aufgaben übernimmt die KI?"
+        },
+        {
+          "label": "Wie wird sie eingearbeitet?",
+          "hint": "Kontext, Vorlagen, Beispiele, Feedback."
+        },
+        {
+          "label": "Wer prüft die Ergebnisse?"
+        }
+      ]
+    },
+    {
+      "id": "absprung",
+      "chapter": 10,
+      "phase": "Kapitel 10 · Das Absprung-Modell",
+      "type": "blatt",
+      "name": "Sechs-Fragen-Absprung-Modell",
+      "intro": "Sechs Perspektiven vor jeder bedeutenden Entscheidung. Kein Punktesystem – ein klares Bild der Lage. Die Ampel ist dein eigener Eindruck, nichts wird verrechnet.",
+      "lead": {
+        "label": "Welche Entscheidung steht an?"
+      },
+      "fields": [
+        {
+          "label": "1 · Die Strukturfrage",
+          "hint": "Ist diese Entscheidung reversibel oder irreversibel?",
+          "ampel": true
+        },
+        {
+          "label": "2 · Die Wertefrage",
+          "hint": "Handeln wir im Sinne unserer Prinzipien?",
+          "ampel": true
+        },
+        {
+          "label": "3 · Die Kulturfrage",
+          "hint": "Wie verändert diese Entscheidung das Team?",
+          "ampel": true
+        },
+        {
+          "label": "4 · Die Vertrauensfrage",
+          "hint": "Stärkt diese Entscheidung Vertrauen oder schwächt sie es?",
+          "ampel": true
+        },
+        {
+          "label": "5 · Die Coaching-Frage",
+          "hint": "Habe ich den Blick von außen eingeholt?",
+          "ampel": true
+        },
+        {
+          "label": "6 · Die Timing-Frage",
+          "hint": "Läuft das Zeitfenster ab?",
+          "ampel": true
+        }
+      ]
+    }
+  ]
+}
