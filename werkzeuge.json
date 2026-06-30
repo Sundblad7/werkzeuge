@@ -161,8 +161,8 @@
       "chapter": 2,
       "phase": "Kapitel 2 · Der Stab",
       "type": "impuls",
-      "name": "Judgement Windows",
-      "intro": "Klare Entscheidungsräume definieren, in denen Führungskräfte selbst entscheiden, unterstützt durch HR, aber nicht abhängig davon.",
+      "name": "Entscheidungsräume",
+      "intro": "Klar umrissene Räume, in denen Führungskräfte selbst entscheiden, unterstützt durch HR, aber nicht abhängig davon.",
       "prompt": "Welche Entscheidung gehört bewusst in deinen Ermessensspielraum – und sollte nicht an ein Regelwerk delegiert werden?"
     },
     {
@@ -436,9 +436,9 @@
       "chapter": 6,
       "phase": "Kapitel 6 · Die Landung",
       "type": "impuls",
-      "name": "Mini-Regenerationsphasen",
-      "intro": "Nach jedem großen Projekt bewusst eine Phase mit weniger Meetings und mehr Reflexion einplanen.",
-      "prompt": "Wo baust du nach dem nächsten großen Projekt bewusst eine Erholung ein – nicht als Sabbatical, sondern als den Dienstagnachmittag ohne Meetings?"
+      "name": "Fokus-Prinzip",
+      "intro": "Kontextwechsel als größten Energiefresser erkennen und Fokus schützen, möglichst nach dem Grundsatz ein Tag, ein Thema statt vier Projekte parallel.",
+      "prompt": "Welcher ständige Kontextwechsel kostet dich gerade am meisten Energie? Und wo könntest du diese Woche einen längeren, ungestörten Block für nur ein Thema schaffen?"
     },
     {
       "id": "matte",
@@ -517,7 +517,7 @@
       "phase": "Kapitel 8 · Der Wettkampf",
       "type": "impuls",
       "name": "Psychologische Sicherheit",
-      "intro": "Teams brauchen einen Raum, in dem Fehler als Information behandelt werden, nicht als Urteil.",
+      "intro": "Teams brauchen einen Raum, in dem Fehler als Information behandelt werden, nicht als Urteil. Der Begriff geht auf Amy Edmondson zurück.",
       "prompt": "Werden Fehler bei euch als Information oder als Urteil behandelt? Woran würde dein Team das festmachen?"
     },
     {
